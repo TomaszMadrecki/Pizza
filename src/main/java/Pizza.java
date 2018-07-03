@@ -14,4 +14,9 @@ public class Pizza {
     public void setTopping(String topping) {
         this.topping = topping;
     }
+
+    @Override
+    public String toString() {
+        return dough + " with " + sauce + " and toppings: " + topping;
+    }
 }
