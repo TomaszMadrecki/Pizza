@@ -9,4 +9,8 @@ public abstract class PizzaBuilder {
     abstract void buildDough();
     abstract void buildSauce();
     abstract void buildTopping();
+
+    public Pizza getPizza() {
+        return pizza;
+    }
 }
